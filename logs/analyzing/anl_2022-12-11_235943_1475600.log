@@ -1,0 +1,14 @@
+2022-12-11 23:59:47,885 : INFO : start analyzing file
+2022-12-12 00:01:13,737 : ERROR : path provided not found: 
+Traceback (most recent call last):
+  File "c:\users\dorge\neolithics\eye_analyzer\analyzer.py", line 231, in read_results
+    self.filter_results(gen_rows)
+  File "c:\users\dorge\neolithics\eye_analyzer\analyzer.py", line 199, in filter_results
+    for t1 in gen_rows:
+  File "c:\users\dorge\neolithics\eye_analyzer\analyzer.py", line 199, in filter_results
+    for t1 in gen_rows:
+  File "C:\Users\dorge\anaconda3\lib\bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "C:\Users\dorge\anaconda3\lib\bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
