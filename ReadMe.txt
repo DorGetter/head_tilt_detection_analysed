@@ -2,7 +2,7 @@
  ==============================================================================
  file system 
  ==============================================================================
---neolithics
+--ROOT
     |
     |- core: logger.py, config.py, file_operations.py
     |- eye_analyzer: analyzer.py (answer to question1)
